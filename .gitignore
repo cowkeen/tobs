@@ -1,0 +1,13 @@
+*/.settings/
+*/target/
+*/.classpath
+*/.project
+*/bin/
+*/.externalToolBuilders/
+*/*.iml
+.idea/
+.project
+*.iml
+.classpath
+target/
+.externalToolBuilders/

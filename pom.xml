@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.crc.ems</groupId>
+	<artifactId>Reimburse</artifactId>
+	<version>2.0</version>
+	<packaging>pom</packaging>
+
+	<name>报账系统共性包</name>
+	<url>http://maven.apache.org</url>
+
+	<modules>
+		<module>ReimburseParent</module>
+		<module>gbs.ai.application.base</module>
+		<module>ReimburseEntity</module>
+		<module>ReimburseMQ</module>
+		<module>ReimburseCache</module>
+		<module>CommonService</module>
+		<module>CommonWeb</module>
+		<module>image-service</module>
+		<module>ReimburseImage</module>
+		<module>mgr-service</module>
+		<module>reimburseBpmService</module>
+		<module>ReimburseMgr</module>
+		<module>process-web</module>
+	</modules>
+</project>
